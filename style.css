@@ -11,17 +11,18 @@ color:white;
 body > p:first-of-type{
   font-weight: bold;
 }
-
+img{
+  width: 600px;
+  float: right;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 @media only screen and (max-width: 600px) {
   img{
-    width:100px;
+    width: 150px;
   }
 }
-img{
-  float: right;
-  margin-top: 300px;
-  margin-right: 50px;
-}
+
 blockquote{
   font-size: 160%;
   background-color: #BBBBBB;
@@ -46,4 +47,11 @@ header > h1{
 .grey{
   background-color: #BBBBBB;
   color:black;
+}
+table{
+font-size: 230%;
+
+}
+a{
+  color: yellow;
 }
