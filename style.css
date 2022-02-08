@@ -1,0 +1,44 @@
+body {
+  font-family: 'Dancing Script', cursive;
+max-width: 90%;
+margin-left: auto;
+margin-right: auto;
+background: rgb(64,64,64);
+background: linear-gradient(40deg, rgba(64,64,64,1) 0%, rgba(9,77,37,1) 0%, rgba(0,0,0,1) 52%, rgba(5,32,17,1) 72%);
+color:white;
+}
+body > p:first-of-type{
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  img{
+    width:100px;
+  }
+}
+
+blockquote{
+  font-size: 160%;
+  background-color: #BBBBBB;
+  border-left: inset;
+  border-left-width:3px;
+  padding-left: 30px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color:black;
+}
+
+header > h1{
+  background-color: yellow;
+  color: black;
+}
+
+.good,.bad{
+  font-weight: bold;
+}
+.good{color:green;}
+.bad{color:red}
+.grey{
+  background-color: #BBBBBB;
+  color:black;
+}
